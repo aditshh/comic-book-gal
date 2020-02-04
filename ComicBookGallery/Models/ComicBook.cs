@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace ComicBookGallery.Models
+﻿namespace ComicBookGallery.Models
 {
     public class ComicBook
     {
@@ -22,7 +17,6 @@ namespace ComicBookGallery.Models
             }
         }
 
-        //series-title-issuenumber.jpg
         public string CoverImageFileName
         {
             get
